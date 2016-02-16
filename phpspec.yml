@@ -12,3 +12,5 @@ laravel_extension:
     testing_environment: 'testing'
 
 formatter.name: pretty
+
+
