@@ -8,4 +8,9 @@ class Article
     {
         return "<p>Hi, there</p>";
     }
+
+    public function encrypt($arg)
+    {
+        return bcrypt($arg);
+    }
 }
