@@ -3,10 +3,12 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
+use Webpatser\Uuid\Uuid;
 
 class Category extends Model
 {
-        /**
+    /**
      * The database table used by the model.
      *
      * @var string
